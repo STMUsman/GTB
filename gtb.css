@@ -1,0 +1,448 @@
+.Navbar{
+    display: flex;
+    list-style: none;
+    max-width: 100%;
+    min-height: 10%;
+    gap: 40px;
+    padding: 15px 20px;
+    justify-content: space-evenly;
+    margin: 0px 10px;
+    align-items: center;
+    
+}
+.Navbar1{
+   list-style: none;
+   color: rgba(35, 31, 32, 1);
+   padding: 0px;
+   width: 20%;
+}
+.Details{
+    display: flex;
+    list-style: none; 
+    max-width: 50%;
+    color: rgba(0, 0, 0, 1);
+    gap: 25px;
+    align-content: flex-end;
+    min-height: 10%;
+    
+}
+.Details li{
+    font-family: 'Montserrat';
+    font-weight: 450;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 1);
+
+}
+.Contact-details{
+    display: flex;
+    list-style: none;
+    max-width: 30%;
+    list-style: none;
+    color: rgba(0, 0, 0, 1);
+    padding: 0px;
+}
+.Contact-details li{
+    font-family: 'Montserrat';
+    font-weight: 450;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 1);
+
+}
+.contact-num{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+.contact{
+    padding-right: 25px;
+}
+
+.email-det{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+
+
+
+
+
+
+.banner{
+    background-image: url(./Factory-home-banner\ 3.png);
+    min-width: 100%;
+    min-height: 580px;
+    background-size: cover;
+}
+
+.banner-p{
+    max-width: 46%;
+    padding-top: 320px;
+    padding-left: 80px;
+}
+.banner-para h1{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 45px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0px;
+    margin-top: 16px;
+
+}
+.banner-p img{
+    width: 100%;
+}
+
+
+
+
+
+.products-page{
+      background-image: url(./stainless-steel-plate-metal-texture-surface-background\ 1.png);
+      min-width: 100%;
+      min-height: 600px;
+    }
+.project-details{
+    display: flex;
+    gap: 200px;
+    padding: 80px ;
+    margin: 0px;
+    justify-content: space-between;
+}
+.project-para{
+      width: 55%;
+}
+.project-image{
+    width: 45%;
+    height: 470px;
+}
+.project-image img{
+    width: 410px;
+    height: 410px;
+}
+.project-para h2{
+    font-family: 'Montserrat';
+    font-weight: 450;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.project-para h1{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 5px;
+}
+.project-para p{
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-weight: 450;
+    font-size: 13px;
+}
+.project-para button{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(239, 112, 8, 1);
+    border: none;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+
+
+.steel{
+    max-width: 100%;
+    background-color: rgba(239, 112, 8, 1);
+    min-height: 500px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    padding: 40px 120px;
+}
+
+.steel-image{
+    max-width: 50%;
+    padding: 20px 50px;
+    
+}
+.steel-para{
+    max-width: 50%;
+    padding: 20px 110px;
+    align-content: center;
+}
+.steel-image img{
+    max-width: 480px;
+    border-radius: 10px;
+}
+
+.steel-para h2{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+}
+.steel-para h1{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Montserrat';
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0px;
+}
+.steel-para p{
+    font-family: 'Montserrat';
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+.steel-para button{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    font-weight: 700;
+    border-radius: 8px;
+    text-align: center; 
+    color: rgba(239, 112, 8, 1);
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+.procesquality{
+    max-width: 100%;
+    display: flex;
+    background-color: rgba(239, 112, 8, 1);
+    gap: 50px;
+    min-height: 500px;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+.procesquality-image{
+    max-width: 50%;
+    padding: 20px 60px;
+}
+.procesquality-image img{
+    max-width: 480px;
+    border-radius: 10px;
+}
+.procesquality-para{
+    max-width: 50%;
+    padding: 20px 105px 20px 84px;
+    margin: 0px;
+    align-content: center;
+}
+.procesquality-para h2{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+}
+.procesquality-para h1{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Montserrat';
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0px;
+}
+.procesquality-para p{
+    font-family: 'Montserrat';
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+.procesquality-para button{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    font-weight: 700;
+    border-radius: 8px;
+    text-align: center; 
+    color: rgba(239, 112, 8, 1);
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+
+
+
+
+
+.project-titles h2{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0px auto;
+    padding: 40px 0px 0px 0px ;
+}
+
+.project-title1 h1{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 39.56px;
+    color: rgb(18, 1, 1);
+    margin: 20px auto;
+    text-align: center;
+
+}
+.project-images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.project-images img{
+    max-width: 360px;
+    min-height: 250px;
+    border-radius: 5px;
+    
+}
+
+.project-btn {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+.project-btn button{
+    width: 200px;
+    height: 41px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+
+
+}
+.p-btn{
+    width: 200px;
+    height: 41px;
+    color: rgba(239, 112, 8, 1);
+}
+.projects {
+    background-image: url('./stainless-steel-plate-metal-texture-surface-background\ 1.png');
+    width: 100%;
+    height:580px;
+}
+
+
+
+
+
+.main-footer{
+    max-width: 100%;
+    min-height: 400px;
+    background-color: rgba(239, 112, 8, 1);
+    gap: 10px;
+    margin: 0px;
+    list-style: none;
+    display: grid;
+}
+.flex-container{
+    max-width: 100%;
+    min-height: 100px;
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    padding: 100px 135px;
+    padding: 100px 135px 0px 135px;
+}
+.details{
+    max-width: 100%;
+    min-height: 150px;
+}
+.image-bg {
+    width: 160px;
+    height: 195px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-bg img{
+    max-width: 123px;
+    min-height: 134px;
+  
+}
+.footer-bar{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.footer-bar li{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+.social{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.social li img{
+    width: 32px;
+    height: 31px;
+
+}
+.social li{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+.details{
+    display: grid;
+    gap: 20px;
+}
+.footer-para{
+    display: flex;
+    margin-top: 15px;
+    gap: 55px;
+}
+.head-office{
+    list-style: none;
+    padding: 0px;
+}
+.footer-para li{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 7px;
+}
+.registered{
+    list-style: none;
+    padding: 0px;
+}
+.footer-para span{
+    font-size: 14.5px;
+    font-weight: 700;
+}
+.main-footer h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin: 0px;
+   margin-top: 20px;
+} 
