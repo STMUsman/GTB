@@ -1,62 +1,57 @@
 .Navbar {
   display: flex;
   list-style: none;
-  max-width: 100%;
-  min-height: 10%;
-  gap: 40px;
-  padding: 15px 20px;
-  justify-content: space-evenly;
-  margin: 0px 10px;
+  padding: 10px 0;
+  margin: 0px;
+  justify-content: space-around;
   align-items: center;
 }
 .Navbar1 {
+  display: flex;
   list-style: none;
-  color: rgba(35, 31, 32, 1);
   padding: 0px;
-  width: 20%;
+}
+.Navbar1 img {
+  height: 100px;
+  width: 90px;
 }
 .Details {
   display: flex;
   list-style: none;
-  max-width: 50%;
-  color: rgba(0, 0, 0, 1);
-  gap: 25px;
-  align-content: flex-end;
-  min-height: 10%;
+  gap: 15px;
 }
 .Details li {
   font-family: "Montserrat";
-  font-weight: 450;
-  font-size: 15px;
+  font-weight: 550;
+  font-size: 16px;
   color: rgba(0, 0, 0, 1);
 }
 .Contact-details {
   display: flex;
   list-style: none;
-  max-width: 30%;
-  list-style: none;
-  color: rgba(0, 0, 0, 1);
+  gap: 20px;
+  text-align: center;
   padding: 0px;
 }
 .Contact-details li {
   font-family: "Montserrat";
-  font-weight: 450;
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 16px;
   color: rgba(0, 0, 0, 1);
+  padding: 0px;
 }
 .contact-num {
   display: flex;
   list-style: none;
   gap: 5px;
+  padding: 2px;
+  align-items: center;
 }
-.contact {
-  padding-right: 25px;
-}
-
 .email-det {
   display: flex;
   list-style: none;
   gap: 5px;
+  padding: 2px;
 }
 
 .banner {
@@ -126,6 +121,7 @@
   font-family: "Montserrat";
   font-weight: 450;
   font-size: 13px;
+  text-align: justify;
 }
 .products-para button {
   width: 150px;
@@ -145,9 +141,9 @@
   background-color: rgba(239, 112, 8, 1);
   min-height: 500px;
   display: flex;
-  gap: 80px;
+  gap: 60px;
   justify-content: space-between;
-  padding: 40px 120px;
+  padding: 50px 80px;
 }
 
 .steel-image {
@@ -156,7 +152,8 @@
 }
 .steel-para {
   max-width: 50%;
-  padding: 20px 110px;
+  padding: 20px 10px 20px 60px;
+  margin: 0px;
   align-content: center;
 }
 .steel-image img {
@@ -184,6 +181,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 25px;
+  text-align: justify;
 }
 .steel-para button {
   width: 150px;
@@ -202,14 +200,14 @@
   max-width: 100%;
   display: flex;
   background-color: rgba(239, 112, 8, 1);
-  gap: 50px;
+  gap: 60px;
   min-height: 500px;
   justify-content: space-between;
-  padding: 40px 80px;
+  padding: 50px 80px;
 }
 .procesquality-image {
   max-width: 50%;
-  padding: 20px 60px;
+  padding: 20px 20px;
 }
 .procesquality-image img {
   max-width: 480px;
@@ -217,7 +215,7 @@
 }
 .procesquality-para {
   max-width: 50%;
-  padding: 20px 105px 20px 84px;
+  padding: 20px 60px 20px 60px;
   margin: 0px;
   align-content: center;
 }
@@ -241,6 +239,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 25px;
+  text-align: justify;
 }
 .procesquality-para button {
   width: 150px;
@@ -259,7 +258,7 @@
   font-family: "Montserrat";
   font-weight: 400;
   font-size: 24px;
-  color: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 1);
   text-align: center;
   margin: 0px auto;
   padding: 40px 0px 0px 0px;
@@ -270,7 +269,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 39.56px;
-  color: rgb(18, 1, 1);
+  color: rgba(255, 255, 255, 1);
   margin: 20px auto;
   text-align: center;
 }
@@ -307,9 +306,15 @@
   background-image: url("./stainless-steel-plate-metal-texture-surface-background\ 1.png");
   max-width: 100%;
   height: 580px;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0),
+    rgb(0, 0, 0)
+  );
 }
 
 .main-footer {
+  padding-bottom: 20px;
   max-width: 100%;
   min-height: 430px;
   background-color: rgba(239, 112, 8, 1);
@@ -406,6 +411,388 @@
   padding-top: 7px;
 }
 
+@media screen and (max-width: 1160px) {
+  .Details {
+    gap: 10px;
+  }
+  .Details li {
+    font-size: 13.5px;
+  }
+
+  .Contact-details li {
+    font-size: 12.5px;
+  }
+  .contact-num img {
+    width: 14px;
+    height: 14px;
+    padding-top: 1px;
+  }
+  .email-det img {
+    width: 14px;
+    height: 14px;
+    padding-top: 1.5px;
+  }
+
+  .email-det,
+  .contact-num {
+    padding: 0px 0px 0px 10px;
+    gap: 3.5px;
+  }
+  .contact-num {
+    gap: 3px;
+  }
+
+  .banner-p {
+    max-width: 60%;
+    padding-top: 320px;
+    padding-left: 40px;
+  }
+  .banner-para h1 {
+    font-size: 45px;
+  }
+
+  .products-details {
+    display: flex;
+    gap: 50px;
+    padding: 40px 30px;
+  }
+  .products-para {
+    width: 55%;
+  }
+  .products-image {
+    width: 45%;
+    height: 440px;
+    align-content: center;
+  }
+  .products-image img {
+    width: 330px;
+    height: 330px;
+  }
+  .products-para h2 {
+    font-size: 23px;
+  }
+  .products-para h1 {
+    font-size: 38px;
+  }
+  .products-para p {
+    font-size: 12.5px;
+  }
+
+  .steel {
+    max-width: 100%;
+    min-height: 330px;
+    gap: 10px;
+    padding: 25px 15px 30px 15px;
+  }
+  .steel-image {
+    max-width: 100%;
+    padding: 15px 15px 0px 15px;
+  }
+
+  .steel-image img {
+    max-width: 300px;
+  }
+  .steel-para {
+    max-width: 100%;
+    padding: 15px 15px 0px 15px;
+    align-content: start;
+  }
+  .steel-para h2 {
+    margin-top: 0px;
+  }
+
+  .procesquality {
+    max-width: 100%;
+    min-height: 330px;
+    gap: 10px;
+    padding: 25px 15px 30px 15px;
+  }
+  .procesquality-image {
+    max-width: 100%;
+    padding: 15px 15px 0px 15px;
+  }
+  .procesquality-image img {
+    max-width: 300px;
+  }
+  .procesquality-para {
+    max-width: 100%;
+    padding: 15px 15px 0px 15px;
+    align-content: start;
+  }
+  .procesquality-para h2 {
+    margin-top: 0px;
+  }
+
+  .project-titles h2 {
+    font-size: 23px;
+  }
+
+  .project-title1 h1 {
+    font-size: 38px;
+  }
+
+  .project-images img {
+    max-width: 250px;
+    min-height: 190px;
+  }
+
+  .project-btn button {
+    width: 170px;
+    height: 36px;
+  }
+  .p-btn {
+    width: 170px;
+    height: 36px;
+  }
+  .projects {
+    max-width: 100%;
+    min-height: 300px;
+  }
+
+  .main-footer {
+    max-width: 100%;
+    min-height: 290px;
+    gap: 15px;
+    padding: 30px 25px;
+  }
+  .flex-container {
+    max-width: 100%;
+    padding: 0px;
+  }
+
+  .image-bg {
+    width: 145px;
+    height: 180px;
+  }
+  .image-bg img {
+    max-width: 110px;
+  }
+  .footer-bar {
+    gap: 20px;
+  }
+  .footer-bar li {
+    text-align: center;
+    font-size: 14px;
+  }
+  .social {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding: 0px;
+  }
+  .social li img {
+    width: 30px;
+    height: 29px;
+  }
+  .social li {
+    text-align: center;
+    font-size: 14px;
+  }
+  .details {
+    gap: 15px;
+    padding: 0px;
+  }
+  .footer-para {
+    gap: 50px;
+  }
+
+  .footer-para li {
+    font-size: 13.5px;
+  }
+
+  .footer-para span {
+    font-size: 14px;
+  }
+  .main-footer h2 {
+    font-size: 13px;
+  }
+  .follow {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .Navbar {
+    display: flex;
+    padding: 15px 10px;
+    margin: 0px 0px;
+    justify-content: space-between;
+  }
+
+  .Details {
+    padding: 0px;
+    gap: 5px;
+  }
+  .Details li {
+    font-size: 11px;
+  }
+  .contact {
+    padding-right: 5px;
+  }
+
+  .Contact-details {
+    padding: 0px;
+    margin: 0px;
+  }
+  .Contact-details li {
+    font-size: 10px;
+    text-align: center;
+  }
+  .contact-num img {
+    width: 12.5px;
+    height: 12.5px;
+    padding-top: 1px;
+  }
+  .email-det img {
+    width: 12.5px;
+    height: 12.5px;
+    padding-top: 1.5px;
+  }
+
+  .email-det,
+  .contact-num {
+    padding: 0px 0px 0px 5px;
+    gap: 2px;
+  }
+  .contact-num {
+    gap: 2px;
+  }
+
+  .banner-p {
+    max-width: 60%;
+    padding-top: 320px;
+    padding-left: 40px;
+  }
+  .banner-para h1 {
+    font-size: 40px;
+  }
+
+  .banner {
+    background-image: url(./Factory-home-banner\ 3.png);
+    max-width: 100%;
+    background-size: cover;
+  }
+
+  .products-details {
+    display: flex;
+    gap: 50px;
+    padding: 40px 30px;
+    flex-direction: column-reverse;
+  }
+  .products-para {
+    width: 100%;
+  }
+  .products-image {
+    width: 100%;
+    text-align: center;
+  }
+  .products-image img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .steel-image {
+    align-content: center;
+  }
+  .steel-para p {
+    line-height: 18px;
+  }
+
+  .steel-image img {
+    max-width: 260px;
+  }
+
+  .procesquality-image {
+    align-content: center;
+  }
+  .procesquality-image img {
+    max-width: 260px;
+  }
+
+  .procesquality-para p {
+    line-height: 18px;
+  }
+
+  .project-titles h2 {
+    font-size: 22px;
+  }
+
+  .project-title1 h1 {
+    font-size: 37px;
+  }
+
+  .project-images img {
+    max-width: 250px;
+    min-height: 170px;
+  }
+  .project-images {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .project-btn button {
+    width: 165px;
+    height: 34px;
+  }
+  .p-btn {
+    width: 165px;
+    height: 34px;
+  }
+  .projects {
+    max-width: 100%;
+    min-height: 850px;
+    padding-bottom: 20px;
+  }
+
+  .main-footer {
+    padding: 30px 20px;
+  }
+
+  .image-bg {
+    width: 125px;
+    height: 160px;
+  }
+  .image-bg img {
+    max-width: 90px;
+  }
+  .footer-bar {
+    gap: 10px;
+  }
+  .footer-bar li {
+    font-size: 12px;
+  }
+  .social {
+    gap: 8px;
+  }
+  .social li img {
+    width: 26px;
+    height: 26px;
+  }
+  .social li {
+    font-size: 12px;
+    padding: 0px 0px 0px 15px;
+  }
+  .details {
+    gap: 10px;
+  }
+  .footer-para {
+    gap: 30px;
+  }
+
+  .footer-para li {
+    font-size: 13px;
+  }
+
+  .footer-para span {
+    font-size: 12px;
+  }
+  .main-footer h2 {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .banner-p {
     max-width: 80%;
@@ -443,11 +830,14 @@
   }
   .products-image {
     width: 100%;
-    justify-content: center;
+    text-align: center;
   }
   .products-para h2 {
     font-weight: 450;
     font-size: 20px;
+  }
+  .products-para span {
+    font-size: 10px;
   }
   .products-para h1 {
     font-weight: 700;
@@ -511,7 +901,7 @@
     display: flex;
     gap: 10px;
     padding: 30px 20px;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
   .procesquality-image {
@@ -570,6 +960,11 @@
     background-image: url("./stainless-steel-plate-metal-texture-surface-background\ 1.png");
     max-width: 100%;
     min-height: 920px;
+    background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0),
+      rgb(0, 0, 0)
+    );
   }
   .Navbar {
     display: flex;
@@ -593,6 +988,7 @@
   .Details li {
     font-weight: 450;
     font-size: 13.5px;
+    text-align: center;
   }
   .Contact-details {
     max-width: 100%;
@@ -602,6 +998,17 @@
   }
   .Contact-details li {
     font-size: 12px;
+    text-align: center;
+  }
+  .contact-num img {
+    width: 15px;
+    height: 15px;
+    padding-top: 1.2px;
+  }
+  .email-det img {
+    width: 15px;
+    height: 15px;
+    padding-top: 1.8px;
   }
   .contact {
     padding-right: 10px;
@@ -621,9 +1028,7 @@
   .main-footer {
     max-width: 100%;
     min-height: 650px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
+
     padding: 0px;
   }
   .flex-container {
@@ -680,5 +1085,11 @@
   }
   .follow {
     padding-top: 5px;
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    justify-content: center;
   }
 }
